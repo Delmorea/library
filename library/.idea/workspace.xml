@@ -10,177 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eba43d1d-55f0-418d-bb61-914d9ac88e6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/library_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/library_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BorrowDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BorrowDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/RdTypeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/RdTypeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/ReaderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/ReaderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/entity/Borrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/entity/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/entity/ReaderType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BorrowService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BorrowServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/ReaderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/ReaderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/BorrowServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/EditServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/MoreServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/RecordServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/ReturnServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/test/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/GsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/BookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/BookDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/BorrowDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/BorrowDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/RdTypeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/RdTypeDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/ReaderDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/ReaderDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/entity/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/entity/Borrow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/entity/Reader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/entity/ReaderType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/service/BookServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/service/BorrowService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/service/BorrowServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/service/ReaderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/service/ReaderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/servlet/BorrowServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/servlet/EditServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/servlet/MoreServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/servlet/RecordServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/servlet/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/servlet/ReturnServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/test/Word.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/utils/GsonUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/utils/JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/personal/delmore/utils/StringUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/AddBook.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/IOLog.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/ReaderList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/META-INF/library.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/BookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/BookDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/BorrowDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/BorrowDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/RdTypeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/RdTypeDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/ReaderDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/ReaderDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/entity/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/entity/Borrow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/entity/Reader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/entity/ReaderType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/service/BookServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/service/BorrowService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/service/BorrowServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/service/ReaderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/service/ReaderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/servlet/BorrowServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/servlet/EditServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/servlet/MoreServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/servlet/RecordServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/servlet/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/servlet/ReturnServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/test/Test2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/test/Word.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/utils/GsonUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/utils/JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/personal/delmore/utils/StringUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/ezmorph-1.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/gson-2.2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/addconfirm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/booklist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/borrow.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/borrowlist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/css/addbook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/css/returnpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/js/AddScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/js/InfoScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/js/loginScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/js/return.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/return.jsp" afterDir="false" />
+    <list default="true" id="eba43d1d-55f0-418d-bb61-914d9ac88e6c" name="Default Changelist" comment="图书管理系统">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,8 +32,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kuangshen" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -223,7 +55,16 @@
       <workItem from="1656298661155" duration="31000" />
       <workItem from="1656298824223" duration="88000" />
       <workItem from="1656637846374" duration="148000" />
+      <workItem from="1656638012109" duration="1388000" />
     </task>
+    <task id="LOCAL-00001" summary="图书管理系统">
+      <created>1656638211294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656638211295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,15 +80,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="图书管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="图书管理系统" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1656637994733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1656637994733" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1656298912618">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1656639410772">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1656298912618" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1656639410772" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1656638710880">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1656638710880" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1656639359540">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1656639359540" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656638072592">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1656638072592" />
   </component>
 </project>
