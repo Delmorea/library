@@ -2,6 +2,7 @@ package personal.delmore.dao;
 
 import personal.delmore.utils.JDBCUtils;
 import personal.delmore.entity.Reader;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,7 +12,7 @@ import java.util.List;
 
 
 public class ReaderDaoImpl implements ReaderDao {
-    public void readerAdd(Reader reader){
+    public void readerAdd(Reader reader) {
         try {
             String userName = reader.getUserName();
             String rdType = reader.getRdType();
@@ -43,7 +44,7 @@ public class ReaderDaoImpl implements ReaderDao {
         }
     }
 
-    public void readerDelete(Reader reader){
+    public void readerDelete(Reader reader) {
         try {
             Connection conn = JDBCUtils.getConnection();
             String userName = reader.getUserName();
@@ -62,7 +63,7 @@ public class ReaderDaoImpl implements ReaderDao {
         }
     }
 
-    public void readerUpdate(Reader reader){
+    public void readerUpdate(Reader reader) {
         try {
             Connection conn = JDBCUtils.getConnection();
             String userName = reader.getUserName();
@@ -90,7 +91,7 @@ public class ReaderDaoImpl implements ReaderDao {
     }
 
     //查询所有读者信息
-    public List<Reader> readerSelectAll(){
+    public List<Reader> readerSelectAll() {
         List<Reader> readers = null;
         try {
             Connection conn = JDBCUtils.getConnection();

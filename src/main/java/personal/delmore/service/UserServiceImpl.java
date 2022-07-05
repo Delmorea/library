@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService {
         List<String> userName = list.stream().map(User::getUserName).collect(Collectors.toList());
         List<String> password = list.stream().map(User::getPassword).collect(Collectors.toList());
         for (int i = 0; i < list.size(); i++)
-            if (user.getUserName().equals(userName.get(i))&&user.getPassword().equals(password.get(i))) {
+            if (user.getUserName().equals(userName.get(i)) && user.getPassword().equals(password.get(i))) {
                 return true;
             }
         return false;

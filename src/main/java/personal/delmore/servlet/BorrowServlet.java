@@ -43,17 +43,17 @@ public class BorrowServlet extends HttpServlet {
         book = bookService.findBookById(book);
         Reader reader = readerService.findReader(user);
         int lendQty = readerService.getLendQty(reader);
-        if (reader.getRdBorrowQty()>=lendQty) {
+        if (reader.getRdBorrowQty() >= lendQty) {
             response.getWriter().print("0");
         } else if (book.getBkQty() == 0) {
             response.getWriter().print("1");
         } else {
             //借阅成功，readerQty++，bkQty--
             Integer rdBorrowQty = reader.getRdBorrowQty();
-            reader.setRdBorrowQty(rdBorrowQty+1);
+            reader.setRdBorrowQty(rdBorrowQty + 1);
             readerService.updateReader(reader);
             Integer bkQty = book.getBkQty();
-            book.setBkQty(bkQty-1);
+            book.setBkQty(bkQty - 1);
             bookService.updateBook(book);
             borrowService.addBorrow(borrow);
             response.getWriter().print("true");

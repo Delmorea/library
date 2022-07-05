@@ -5,6 +5,7 @@ import personal.delmore.entity.User;
 import personal.delmore.service.ReaderService;
 import personal.delmore.service.ReaderServiceImpl;
 import personal.delmore.utils.GsonUtils;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -25,9 +26,9 @@ public class MoreServlet extends HttpServlet {
         //获取user,找到对应的reader
         String rgString = request.getParameter("user");
         String userName = GsonUtils.getParaFromJson(rgString, "userName");
-        User user = new User(userName,null);
+        User user = new User(userName, null);
         ReaderService readerService = new ReaderServiceImpl();
-        Reader reader=readerService.findReader(user);
+        Reader reader = readerService.findReader(user);
         String sgString = GsonUtils.beanToJson(reader);
         //数据回显
         response.getWriter().print(sgString);

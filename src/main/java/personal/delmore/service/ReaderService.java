@@ -14,6 +14,7 @@ public interface ReaderService {
      * @date 2022/5/4 17:29
      */
     void updateReader(Reader reader);
+
     /**
      * @param :reader
      * @return void
@@ -22,6 +23,7 @@ public interface ReaderService {
      * @date 2022/4/27 23:59
      */
     void updateInform(Reader reader);
+
     /**
      * @param :user
      * @return boolean
@@ -35,10 +37,11 @@ public interface ReaderService {
      * @param : reader
      * @return Reader
      * @author 86176
-     * @description 通过userName查询reader,用于向前端返回reader信息
+     * @description 通过userName查询reader, 用于向前端返回reader信息
      * @date 2022/4/27 16:12
      */
     Reader findReader(User user);
+
     /**
      * @param :
      * @param :
@@ -48,6 +51,7 @@ public interface ReaderService {
      * @date 2022/4/27 16:32
      */
     boolean adjustReader(User user, Reader reader);
+
     /**
      * @param :
      * @return int
@@ -56,5 +60,6 @@ public interface ReaderService {
      * @date 2022/4/29 8:33
      */
     int getLendQty(Reader reader);
+
     int getLendDay(Reader reader);
 }

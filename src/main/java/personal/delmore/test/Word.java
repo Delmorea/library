@@ -34,7 +34,9 @@ public class Word {
         return list;
     }
 
-    public void setList(int list) {this.list = list;}
+    public void setList(int list) {
+        this.list = list;
+    }
 
     @Override
     public String toString() {

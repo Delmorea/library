@@ -2,6 +2,7 @@ package personal.delmore.dao;
 
 import personal.delmore.entity.Reader;
 import personal.delmore.utils.JDBCUtils;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -18,17 +19,17 @@ import java.sql.SQLException;
  */
 public class RdTypeDaoImpl implements RdTypeDao {
     //获取可借数量
-    public int getLendQty(Reader reader){
-        Integer canLendQty= null;
+    public int getLendQty(Reader reader) {
+        Integer canLendQty = null;
         try {
             Connection conn = JDBCUtils.getConnection();
-            String rdType=reader.getRdType();
+            String rdType = reader.getRdType();
             String sql = "select * from readerType where rdType=?";
             PreparedStatement pstmt = conn.prepareStatement(sql);
-            pstmt.setString(1,rdType);
+            pstmt.setString(1, rdType);
             canLendQty = 0;
             ResultSet rs = pstmt.executeQuery();
-            while (rs.next()){
+            while (rs.next()) {
                 canLendQty = rs.getInt(2);
             }
             JDBCUtils.close(rs, conn, pstmt);
@@ -37,17 +38,18 @@ public class RdTypeDaoImpl implements RdTypeDao {
         }
         return canLendQty;          //return后的语句不执行
     }
+
     //获取可接天数
-    public int getLendDay(Reader reader){
-        Integer canLendDay= 0;
+    public int getLendDay(Reader reader) {
+        Integer canLendDay = 0;
         try {
             Connection conn = JDBCUtils.getConnection();
-            String rdType=reader.getRdType();
+            String rdType = reader.getRdType();
             String sql = "select * from readerType where rdType=?";
             PreparedStatement pstmt = conn.prepareStatement(sql);
-            pstmt.setString(1,rdType);
+            pstmt.setString(1, rdType);
             ResultSet rs = pstmt.executeQuery();
-            while (rs.next()){
+            while (rs.next()) {
                 canLendDay = rs.getInt(3);
             }
             JDBCUtils.close(rs, conn, pstmt);

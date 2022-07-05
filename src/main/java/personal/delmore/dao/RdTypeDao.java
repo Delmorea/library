@@ -11,5 +11,6 @@ public interface RdTypeDao {
      * @date 2022/3/26 18:34
      */
     int getLendQty(Reader reader);
+
     int getLendDay(Reader reader);
 }

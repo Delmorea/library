@@ -20,7 +20,7 @@ public class StringUtils {
      * @description date转字符串
      * @date 2022/5/6 10:22
      */
-    public static String getDateString(Date date){
+    public static String getDateString(Date date) {
         StringBuilder sb = new StringBuilder();
         sb.append(" yyyy-MM-dd HH:mm:ss");
         SimpleDateFormat sdf = new SimpleDateFormat(sb.toString());

@@ -1,6 +1,7 @@
 package personal.delmore.dao;
 
 import personal.delmore.entity.User;
+
 import java.sql.SQLException;
 import java.util.List;
 
@@ -13,7 +14,9 @@ public interface UserDao {
      * @date 2022/3/25 12:47
      */
     void userAdd(User user);
+
     void userUpdate(User user);
+
     /**
      * @param :user
      * @return List<User>

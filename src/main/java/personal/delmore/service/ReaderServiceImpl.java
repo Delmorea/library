@@ -24,16 +24,25 @@ public class ReaderServiceImpl implements ReaderService {
     private final ReaderDao readerDao = new ReaderDaoImpl();
     private final RdTypeDao rdTypeDao = new RdTypeDaoImpl();
 
-    public ReaderServiceImpl(){}
+    public ReaderServiceImpl() {
+    }
 
     //增删改查
-    public void addReader(Reader reader){ readerDao.readerAdd(reader); }
-    public void deleteReader(Reader reader){ readerDao.readerDelete(reader); }
-    public void updateReader(Reader reader){readerDao.readerUpdate(reader);}
+    public void addReader(Reader reader) {
+        readerDao.readerAdd(reader);
+    }
+
+    public void deleteReader(Reader reader) {
+        readerDao.readerDelete(reader);
+    }
+
+    public void updateReader(Reader reader) {
+        readerDao.readerUpdate(reader);
+    }
 
 
     //判断用户名是否存在
-    public boolean adjustUsername(User user){
+    public boolean adjustUsername(User user) {
         List<Reader> list = readerDao.readerSelectAll();
         boolean flag = false;
         List<String> userName = list.stream().map(Reader::getUserName).collect(Collectors.toList());
@@ -42,7 +51,7 @@ public class ReaderServiceImpl implements ReaderService {
     }
 
     //通过userName查询reader
-    public Reader findReader(User user){
+    public Reader findReader(User user) {
         List<Reader> list = readerDao.readerSelectAll();
         boolean flag = false;
         List<String> userName = list.stream().map(Reader::getUserName).collect(Collectors.toList());
@@ -55,7 +64,7 @@ public class ReaderServiceImpl implements ReaderService {
     }
 
     //通过用户名与姓名的一一对应来赋予修改密码与QQ的权限
-    public boolean adjustReader(User user, Reader reader){
+    public boolean adjustReader(User user, Reader reader) {
         List<Reader> list = readerDao.readerSelectAll();
         List<String> userName = list.stream().map(Reader::getUserName).collect(Collectors.toList());
         for (int i = 0; i < list.size(); i++) {
@@ -68,18 +77,20 @@ public class ReaderServiceImpl implements ReaderService {
         }
         return false;
     }
+
     //修改密码与QQ
-    public void updateInform(Reader reader){
+    public void updateInform(Reader reader) {
         List<Reader> list = readerDao.readerSelectAll();
         List<String> userName = list.stream().map(Reader::getUserName).collect(Collectors.toList());
-        for(int i=0;i<list.size();i++){
-            if (reader.getUserName().equals(userName.get(i))){
-                Reader rder=(Reader)list.get(i);
+        for (int i = 0; i < list.size(); i++) {
+            if (reader.getUserName().equals(userName.get(i))) {
+                Reader rder = (Reader) list.get(i);
                 rder.setRdQQ(reader.getRdQQ());
                 readerDao.readerUpdate(rder);
             }
         }
     }
+
     //识别读者类别。并且返回可借书的数量与天数
     public int getLendQty(Reader reader) {
         return rdTypeDao.getLendQty(reader);

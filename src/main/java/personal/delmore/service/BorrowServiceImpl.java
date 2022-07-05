@@ -43,7 +43,7 @@ public class BorrowServiceImpl implements BorrowService {
     }
 
 
-    public void updateLendAct(Borrow borrow){
+    public void updateLendAct(Borrow borrow) {
         for (int i = 0; i < list.size(); i++) {
             if (borrow.equals(list.get(i))) {
                 Date date = new Date();

@@ -12,6 +12,34 @@
   <component name="ChangeListManager">
     <list default="true" id="eba43d1d-55f0-418d-bb61-914d9ac88e6c" name="Default Changelist" comment="图书管理系统">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BorrowDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BorrowDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BorrowDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/BorrowDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/RdTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/RdTypeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/RdTypeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/RdTypeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/ReaderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/ReaderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/ReaderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/ReaderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/entity/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/entity/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BorrowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/BorrowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/service/ReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/ReaderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/service/ReaderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/ReaderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/BorrowServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/BorrowServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/EditServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/EditServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/MoreServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/servlet/MoreServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/test/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/test/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/GsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/GsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal/delmore/utils/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +47,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="26gMao7gRMa5e78aunje0TFpXZm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kuangshen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -56,6 +84,10 @@
       <workItem from="1656298824223" duration="88000" />
       <workItem from="1656637846374" duration="148000" />
       <workItem from="1656638012109" duration="1388000" />
+      <workItem from="1656642126831" duration="855000" />
+      <workItem from="1656774970564" duration="4000" />
+      <workItem from="1656991258521" duration="9000" />
+      <workItem from="1657016694621" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="图书管理系统">
       <created>1656638211294</created>
@@ -64,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656638211295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="图书管理系统">
+      <created>1656642211391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656642211391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,21 +130,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1656637994733" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1656639410772">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1657016705561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1656639410772" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1657016705561" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1656638710880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1656638710880" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1656639359540">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1656642575072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1656639359540" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1656642575072" />
     <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656638072592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1656638072592" />
+    <state x="493" y="199" key="git4idea.merge.GitPullDialog" timestamp="1656642565245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="199" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1656642565245" />
   </component>
 </project>

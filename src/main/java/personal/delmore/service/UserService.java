@@ -11,6 +11,7 @@ public interface UserService {
      * @date 2022/3/24 19:27
      */
     boolean adjustUser(User user);
+
     /**
      * @param :user
      * @return boolean
@@ -19,6 +20,7 @@ public interface UserService {
      * @date 2022/3/24 19:26
      */
     boolean adjustId(User user);
+
     /**
      * @param :user
      * @return void
@@ -27,6 +29,7 @@ public interface UserService {
      * @date 2022/3/24 19:30
      */
     void addUser(User user);
+
     void updateUser(User user);
 
 }

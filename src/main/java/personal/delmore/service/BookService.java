@@ -28,5 +28,6 @@ public interface BookService {
      * @date 2022/5/6 8:18
      */
     Book findBookByName(Book book);
+
     Book findBookById(Book book);
 }

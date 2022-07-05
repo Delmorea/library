@@ -19,7 +19,8 @@ public class Reader {
         this.power = power;
     }
 
-    public Reader() {}
+    public Reader() {
+    }
 
     public String getUserName() {
         return userName;
@@ -69,9 +70,13 @@ public class Reader {
         this.rdBorrowQty = rdBorrowQty;
     }
 
-    public boolean isPower() { return power; }
+    public boolean isPower() {
+        return power;
+    }
 
-    public void setPower(boolean power) { this.power = power; }
+    public void setPower(boolean power) {
+        this.power = power;
+    }
 
 
     @Override

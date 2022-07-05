@@ -3,6 +3,7 @@ package personal.delmore.dao;
 
 import personal.delmore.entity.User;
 import personal.delmore.utils.JDBCUtils;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -20,7 +21,7 @@ import java.util.List;
  * @version: 1.0
  */
 public class UserDaoImpl implements UserDao {
-    public void userAdd(User user){
+    public void userAdd(User user) {
         try {
             String userName = user.getUserName();
             String password = user.getPassword();
@@ -42,11 +43,11 @@ public class UserDaoImpl implements UserDao {
         }
     }
 
-    public void userUpdate(User user){
+    public void userUpdate(User user) {
         try {
             Connection conn = JDBCUtils.getConnection();
-            String userName=user.getUserName();
-            String password=user.getPassword();
+            String userName = user.getUserName();
+            String password = user.getPassword();
             String sql = "update user set password=? where userName=?";
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, password);
@@ -58,7 +59,7 @@ public class UserDaoImpl implements UserDao {
         }
     }
 
-    public List<User> userSelectAll(){
+    public List<User> userSelectAll() {
         List<User> users = null;
         try {
             Connection conn = JDBCUtils.getConnection();
@@ -68,8 +69,8 @@ public class UserDaoImpl implements UserDao {
             users = new ArrayList<>();
             while (rs.next()) {
                 String userName = rs.getString(1);
-                String password=rs.getString(2);
-                User user = new User(userName,password);
+                String password = rs.getString(2);
+                User user = new User(userName, password);
                 users.add(user);
             }
             JDBCUtils.close(rs, conn, pstmt);

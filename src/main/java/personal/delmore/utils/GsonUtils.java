@@ -55,6 +55,7 @@ public class GsonUtils {
         gString = new Gson().toJson(object);
         return gString;
     }
+
     /**
      * @param :
      * @return String
@@ -62,7 +63,7 @@ public class GsonUtils {
      * @description list转json
      * @date 2022/4/28 10:01
      */
-    public static String listToJson(List list){
+    public static String listToJson(List list) {
         String gString = null;
         gString = new Gson().toJson(list);
         return gString;
